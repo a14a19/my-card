@@ -1,7 +1,13 @@
+import userImg from './img/anas.png'
+
 function Profile() {
     return (
         <div className="profile">
-            <h1>Anas</h1>
+            <img src={userImg} alt='User-Pic' className='profile-img'/>
+            <h1>Anas Ahmed</h1>
+            <h2>
+                Front End Developer
+            </h2>
         </div>
     )
 }

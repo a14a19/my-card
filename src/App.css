@@ -1,38 +1,93 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  animation: backgroundColorPalette 10s alternate infinite;
+}
+@keyframes backgroundColorPalette {
+  0% {
+    background: #fd8a8a80;
+  }
+   25% {
+      background: #71bfd480; 
+  }
+  50% {
+    background:  #8c8aff80;
+  }
+  75%{
+      background: rgba(232, 138, 255, 0.5);
+  }
+  100% {
+    background: #ff8b8b90;
+  }
+}
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contact, .profile, .connect {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
 }
-
-.App-link {
-  color: #61dafb;
+.profile {
+  padding: 50px 0px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.connect {
+  padding: 50px 0px;
+}
+.sub-contact-1, .sub-contact-2, .sub-contact-3  {
+  width: 30%;
+  min-width: 290px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px;
+  border-radius: 35px;
+  border: 5px solid rgba(245, 245, 245, 0.5);
+  background: rgba(245, 245, 245, 0.3);
+}
+.sub-contact-1 {
+  padding: 20px 15px;
+}
+.sub-contact-2{
+  margin: 15px 0px;
+}
+.profile-img {
+  width: 250px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 0 0 4px 5px rgba(255, 255, 255, 0.8), 20px -20px 30px #8c8aff5c, -30px -20px 30px #8af1ff5c, 0px 40px 30px #fd8a8a5c;
+    overflow: hidden;
+}
+.contact-icon-1, .contact-icon-2, .contact-icon-3, .contact-icon-4 {
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 18px;
+  color: whitesmoke;
+  background: rgba(0, 0, 0, 0.5);
+}
+.contact-icon-1{
+  margin-right: 8px;
+  background: rgb(0, 166, 255);
+}
+.contact-icon-2{
+  background: rgb(7, 221, 0);
+}
+.contact-icon-3{
+  background: rgb(225, 0, 255);
+}
+.contact-icon-4{
+  background: rgb(255, 77, 0);
+}
+.connect h3 {
+  margin-bottom: 15px;
+}
+.connect-icon {
+  padding: 12px;
+  font-size: 20px;
+  color: black;
 }
