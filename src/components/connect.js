@@ -38,9 +38,12 @@ const social = links.map((link, i) =>{
 function Connect() {
     return (
         <div className="connect">
-            <h3>
-                Let's connect
-            </h3>
+            <div className='connect-sub'>
+                <span>
+                    Let's connect
+                </span>
+                <i className="fa-solid fa-angle-right"></i>
+            </div>
             <div>
                 {social}
             </div>

@@ -10,7 +10,7 @@ a {
   text-decoration: none !important;
 }
 a:hover {
-  color: rgba(45, 45, 45, 0.5);
+  color: whitesmoke;
 }
 header {
   display: flex;
@@ -160,8 +160,14 @@ body {
   justify-content: space-between;
   width: 110px;
 }
-.connect h3 {
+.connect-sub {
   margin-bottom: 15px;
+}
+.connect-sub span {
+  font-size: 20px;
+}
+.connect-sub i {
+  margin-left: 10px;
 }
 .connect-icon{
   padding: 12px;
@@ -169,6 +175,7 @@ body {
   color: black;
 }
 .connect-icon i:hover{
+  color: whitesmoke;
   transform: scale(1.5);
   transition: all 0.5s;
 }
