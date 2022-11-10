@@ -5,7 +5,7 @@ function Contact() {
                 <div>
                     +91-8251039590
                 </div>
-                <div>
+                <div className='phone'>
                     <a href="tel:+918251039590" className='contact-icon-1'>
                         <i className="fa-solid fa-phone"></i>
                     </a>
