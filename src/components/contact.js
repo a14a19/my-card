@@ -9,7 +9,7 @@ function Contact() {
                     <a href="tel:+918251039590" className='contact-icon-1'>
                         <i className="fa-solid fa-phone"></i>
                     </a>
-                    <a href="https://wa.me/+918251039590" className='contact-icon-2'>
+                    <a href="https://wa.me/+18507248774" className='contact-icon-2'>
                         <i className="fa-brands fa-whatsapp"></i>
                     </a>
                 </div>
