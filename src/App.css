@@ -143,16 +143,16 @@ body {
   flex-direction: column;
 }
 .contact-icon-1{
-  background: rgb(0, 166, 255);
+  background: rgba(0, 166, 255, 0.75);
 }
 .contact-icon-2{
-  background: rgb(7, 221, 0);
+  background: rgba(7, 221, 0, 0.75);
 }
 .contact-icon-3{
-  background: rgb(225, 0, 255);
+  background: rgb(225, 0, 255, 0.75);
 }
 .contact-icon-4{
-  background: rgb(255, 77, 0);
+  background: rgb(255, 77, 0, 0.75);
 }
 .phone{
   display: flex;

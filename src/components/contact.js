@@ -9,7 +9,7 @@ function Contact() {
                     <a href="tel:+918251039590" className='contact-icon-1'>
                         <i className="fa-solid fa-phone"></i>
                     </a>
-                    <a href="https://wa.me/+18507248774" className='contact-icon-2'>
+                    <a href="https://wa.me/+18507248774" className='contact-icon-2' target='_blank' rel='noreferrer'>
                         <i className="fa-brands fa-whatsapp"></i>
                     </a>
                 </div>
@@ -26,7 +26,7 @@ function Contact() {
                 <div>
                     https://a14a19.github.io/
                 </div>
-                <a href="https://a14a19.github.io/" className='contact-icon-4'>
+                <a href="https://a14a19.github.io/" className='contact-icon-4' target='_blank' rel='noreferrer'>
                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
             </div>
