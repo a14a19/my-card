@@ -10,14 +10,6 @@ const links = [
     {
         url: 'https://twitter.com/a_14_a_19',
         icon: 'fa-brands fa-twitter'
-    },
-    {
-        url: 'https://www.instagram.com/anas_a14a19/',
-        icon: 'fa-brands fa-instagram'
-    },
-    {
-        url: 'https://www.facebook.com/profile.php?id=100063229659168',
-        icon: 'fa-brands fa-facebook-f'
     }
 ]
 
