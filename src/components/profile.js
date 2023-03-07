@@ -7,7 +7,7 @@ function Profile() {
             <div className='name-text rounded-4'>Hi, I'm 
                 <span className='name'>Anas!</span></div>
             <h1 className='front-end'>
-                Front End Developer
+                Full Stack Developer
             </h1>
         </div>
     )
