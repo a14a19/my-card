@@ -10,6 +10,10 @@ const links = [
     {
         url: 'https://twitter.com/a_14_a_19',
         icon: 'fa-brands fa-twitter'
+    },
+    {
+        url: 'https://www.upwork.com/freelancers/~01e5c077857a2f6586',
+        icon: 'fa-solid fa-up-right-from-square'
     }
 ]
 
